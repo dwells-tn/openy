@@ -19,5 +19,33 @@ default_value_callback: ''
 settings:
   handler: 'default:paragraph'
   handler_settings:
-    target_bundles: null
+    target_bundles: 
+      1c: 1c
+      block_date: block_date
+      code: code
+      promo_card: promo_card
+      simple_content: simple_content
+      story_card: story_card
+      webform: webform
+    target_bundles_drag_drop:
+      1c: 
+        enabled: true
+        weight: 0
+      block_date:
+        enabled: 1
+      code: 
+        enabled: true
+        weight: 2
+      promo_card: 
+        enabled: true
+        weight: 3
+      simple_content: 
+        enabled: true
+        weight: 4
+      story_card: 
+        enabled: true
+        weight: 
+      webform: 
+        enabled: true
+        weight: 5
 field_type: entity_reference_revisions
